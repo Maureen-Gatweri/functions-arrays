@@ -19,8 +19,20 @@ function myFunction(nums){
         zero:zero
     }
 }
-//console.log(myFunction(nums))
+//question4
+function product(numbers){
+    numbers.forEach(g=>{
+        console.log(`product`,g*2)
 
-//question3
-//var record=[{id:457678, name:"Mwendwa Betty", salary:90000} ,{id:7896445, name:"Sandra Tubei", salary:789000}, {id:76504, name:"Kate Mabwai", salary:679843}]
-//let record= salary
+    })
+}
+    product([5,7,9,2,4,]);
+
+    //question 5
+    function operator(numbs){
+        let firstNums= numbs.slice(0,4).map(x=> y*8);
+        let lastNums = numbs.slice(-2).map(y+5)
+       let newArray = firstNums.concat(lastNums)
+
+       console.log({newArray})
+    }
